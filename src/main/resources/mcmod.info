@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cheesemod",
+  "name": "Cheese Mod",
+  "description": "Adds cheese and other food items",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["cdbbnny"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

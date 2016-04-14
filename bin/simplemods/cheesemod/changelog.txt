@@ -1,0 +1,43 @@
+Changelog 1.4.0
+Added
+├─Items
+│ ├─Food
+│ │ ├─Brownies
+│ │ └─Moon Cheese
+│ └─Butter
+├─Environment
+│ └─Rainbows
+├─Blocks
+│ └─Moon Cheese Ore
+├─Worldgen
+│ └─Moon Cheese Ore
+│   ├─Spawns in The End
+│   ├─10 Blocks per Vein
+│   ├─4 Tries Per Chunk
+│   ├─Max Y 63
+└ Crafting Recipes
+  ├─Brownie
+  │	├──	┌─┬─┬─┐
+  │	│	│C│C│C│
+  │	│	├─┼─┼─┤
+  │	│	│W│W│W│ -> Brownie x3
+  │	│	├─┼─┼─┤
+  │	│	│ │ │ │
+  │	│	└─┴─┴─┘
+  │	├──	C = chocolate bar
+  │	└──	W = wheat
+  └─Butter
+    ├──	┌─┬─┬─┐
+ 	│	│ │ │ │
+ 	│	├─┼─┼─┤
+ 	│	│M│M│M│ -> Butter x8
+ 	│	├─┼─┼─┤
+ 	│	│ │ │ │
+   	│	└─┴─┴─┘
+    └── M = milk bucket
+
+To do
+Blocks
+	Cheesecake
+	Pie
+	Cheese Wheel

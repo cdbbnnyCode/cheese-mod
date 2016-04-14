@@ -1,0 +1,46 @@
+item.sandwich.name=Sandwich
+item.cheese_wheel.name=Cheese Wheel
+item.cheese_wedge.name=Cheese Wedge
+item.cheese_slice.name=Cheese Slice
+item.bread_slice.name=Bread Slice
+item.poisoned_apple.name=Poisoned Apple
+item.fried_egg.name=Fried Egg
+item.salt.name=Salt
+item.bucket_vinegar.name=Vinegar Bucket
+item.bucket_boiling_salt_milk.name=Boiling Salty Milk Bucket
+item.bucket_salt_milk.name=Salty Milk Bucket
+item.cream_cheese.name=Cream Cheese
+item.egg_sandwich.name=Egg Sandwich
+item.chocolate.name=Chocolate Bar
+item.moon_cheese.name=Moon Cheese
+item.brownie.name=Brownie
+item.butter.name=Butter
+item.apple_pie.name=Apple Pie
+item.apple_pie_slice.name=Apple Pie Slice
+item.bagel_plain.name=Bagel
+item.bagel_blueberry.name=Blueberry Bagel
+item.bagel_everything.name=Everything Bagel
+
+tile.salt_ore.name=Salt Ore
+tile.moon_cheese_ore.name=Moon Cheese Deposit
+
+itemGroup.blocks=Cheesemod Blocks
+itemGroup.cheese_food=Cheesemod Foodstuffs
+
+achievement.craft_cheese=Cheesy!
+achievement.craft_cheese.desc=Craft a wheel of cheese
+
+achievement.craft_sandwich=The Sandwich Maker
+achievement.craft_sandwich.desc=Make a sandwich
+
+achievement.craft_vinegar=Sour!
+achievement.craft_vinegar.desc=Make a bucket of vinegar
+
+achievement.craft_cream_cheese=Dairy King
+achievement.craft_cream_cheese.desc=Craft cream cheese
+
+achievement.craft_bread=Bakery
+achievement.craft_bread.desc=Slice a loaf of bread into slices
+
+achievement.craft_egg_sandwich=Eggy!
+achievement.craft_egg_sandwich.desc=Make an egg sandwich
