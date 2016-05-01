@@ -8,12 +8,12 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemApplePie extends Item {
-	public ItemApplePie() {
+public class ItemCheeseCake extends Item {
+	public ItemCheeseCake() {
 		setMaxStackSize(64);
 		setCreativeTab(CCreativeTabs.tabFood);
-		setUnlocalizedName("apple_pie");
-		setTextureName("cheesemod:apple_pie");
+		setUnlocalizedName("cheese_cake");
+		setTextureName("cheesemod:cheese_cake");
 	}
 	public boolean onItemUse(ItemStack p_77648_1_, EntityPlayer p_77648_2_, World p_77648_3_, int p_77648_4_, int p_77648_5_, int p_77648_6_, int p_77648_7_, float p_77648_8_, float p_77648_9_, float p_77648_10_)
     {
@@ -61,7 +61,7 @@ public class ItemApplePie extends Item {
         {
             if (!p_77648_3_.isRemote)
             {
-            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, CommonProxy.apple_pie_block);
+            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, CommonProxy.cheese_cake_block);
             	p_77648_1_.stackSize--;
             }
             return true;
