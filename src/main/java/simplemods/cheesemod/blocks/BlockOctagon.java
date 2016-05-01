@@ -63,7 +63,7 @@ public class BlockOctagon extends BlockContainer {
 	}
 
 	public void registerBlockIcons(IIconRegister reg) {
-		icon = reg.registerIcon("cheesemod:../../textures/items/" + itemTexture);
+		icon = reg.registerIcon("cheesemod:" + itemTexture + "_item");
 	}
 	
 	

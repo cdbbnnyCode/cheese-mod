@@ -12,6 +12,7 @@ public class ItemBucketVinegar extends Item {
 		setTextureName("cheesemod:bucket_vinegar");
 		setUnlocalizedName("bucket_vinegar");
 		setCreativeTab(CreativeTabs.tabMisc);
+		setContainerItem(Items.bucket);
 	}
 	public ItemStack onEaten(ItemStack p_77654_1_, World p_77654_2_, EntityPlayer p_77654_3_) {
         return p_77654_1_.stackSize <= 0 ? new ItemStack(Items.bucket) : p_77654_1_;

@@ -3,6 +3,7 @@ package simplemods.cheesemod.blocks;
 import java.util.Random;
 
 import simplemods.cheesemod.BaseMod;
+import simplemods.cheesemod.CommonProxy;
 import simplemods.cheesemod.inventory.CCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -24,7 +25,7 @@ public class BlockMoonCheese extends Block {
 	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_,
 			int p_149650_3_) {
-		return BaseMod.moon_cheese;
+		return CommonProxy.moon_cheese;
 	}
 	
 	

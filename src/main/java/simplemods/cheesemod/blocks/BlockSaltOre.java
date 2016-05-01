@@ -5,6 +5,7 @@ import java.util.Random;
 import simplemods.cheesemod.inventory.CCreativeTabs;
 import simplemods.cheesemod.items.*;
 import simplemods.cheesemod.BaseMod;
+import simplemods.cheesemod.CommonProxy;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -23,7 +24,7 @@ public class BlockSaltOre extends Block {
 		this.setHardness(1.3F);
 	}
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_) {
-		return BaseMod.salt;
+		return CommonProxy.salt;
 	}
 	public int quantityDropped(Random r) {
 		return 1;

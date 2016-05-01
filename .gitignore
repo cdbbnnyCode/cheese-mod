@@ -48,3 +48,7 @@ Temporary Items
 .classpath
 .project
 eclipse/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+.prefs
+*.prefs
+/bin/
+/gradle/

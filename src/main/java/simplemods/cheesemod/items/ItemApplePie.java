@@ -1,6 +1,7 @@
 package simplemods.cheesemod.items;
 
 import simplemods.cheesemod.BaseMod;
+import simplemods.cheesemod.CommonProxy;
 import simplemods.cheesemod.inventory.CCreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -60,7 +61,7 @@ public class ItemApplePie extends Item {
         {
             if (!p_77648_3_.isRemote)
             {
-            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, BaseMod.apple_pie_block);
+            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, CommonProxy.apple_pie_block);
             	p_77648_1_.stackSize--;
             }
             return true;

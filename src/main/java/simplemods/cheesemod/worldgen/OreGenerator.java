@@ -3,11 +3,25 @@ package simplemods.cheesemod.worldgen;
 import java.util.Random;
 
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import cpw.mods.fml.common.IWorldGenerator;
-
+/**
+ * The OreGenerator class
+ * Generates ores
+ * How to use:
+ * <ol>
+ *   <li> Instantiate the class
+ *	 <li> Add ores using the <code>registerOre(Block, int, int, int, int)</code> method
+ *   <li> Register as a worldgen by putting <blockquote>
+ *   		<code>GameRegistry.registerWorldGenerator(<u>your ore gen object name here</u>)</code>
+ *   </blockquote>
+ *   in your BaseMod class
+ * </ol>
+ *
+ **/
 public class OreGenerator implements IWorldGenerator {
 	private Ore[] ores = new Ore[127];
 	private int numOfOres;
@@ -23,7 +37,13 @@ public class OreGenerator implements IWorldGenerator {
 				ores[i].setChunkXZ(chunkX * 16, chunkZ * 16);
 //				System.out.println("[cheesemod][Ore Gen]Generating ore " + ores[i].getBlock().getUnlocalizedName());
 				for (int j = 0; j < ores[i].getTries(); j++) {
-					boolean b = (new WorldGenMinable(ores[i].getBlock(),ores[i].getBlocksPerVein()).generate(world, random, ores[i].getX(), ores[i].getY(), ores[i].getZ()));
+					if (ores[i].getDim() == -1) {
+						new WorldGenMinable(ores[i].getBlock(),ores[i].getBlocksPerVein(),Blocks.netherrack).generate(world, random, ores[i].getX(), ores[i].getY(), ores[i].getZ());
+					} else if (ores[i].getDim() == 1) {
+						new WorldGenMinable(ores[i].getBlock(),ores[i].getBlocksPerVein(),Blocks.end_stone).generate(world, random, ores[i].getX(), ores[i].getY(), ores[i].getZ());
+					} else {
+						new WorldGenMinable(ores[i].getBlock(),ores[i].getBlocksPerVein()).generate(world, random, ores[i].getX(), ores[i].getY(), ores[i].getZ());
+					}
 				}
 			}
 		}

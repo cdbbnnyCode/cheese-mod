@@ -18,11 +18,22 @@ item.butter.name=Butter
 item.apple_pie.name=Apple Pie
 item.apple_pie_slice.name=Apple Pie Slice
 item.bagel_plain.name=Bagel
-item.bagel_blueberry.name=Blueberry Bagel
+item.bagel_chocolate.name=Chocolate Bagel
 item.bagel_everything.name=Everything Bagel
+item.bagel_half_plain.name=Bagel Half
+item.bagel_half_chocolate.name=Chocolate Bagel Half
+item.bagel_half_everything.name=Everything Bagel Half
+item.bagel_half_plain-cc.name=Cream Cheese Coated Bagel Half
+item.bagel_half_chocolate-cc.name=Cream Cheese Coated Chocolate Bagel Half
+item.bagel_sandwich.name=Bagel Sandwich
+item.cheese_cake.name=Cheese Cake
+item.cheese_cake_slice.name=Cheese Cake Slice
+item.hot_pepper_cheese.name=Hot Pepper Cheese
+item.cream_cheese_pickaxe.name=Cream Cheese Pickaxe
 
 tile.salt_ore.name=Salt Ore
 tile.moon_cheese_ore.name=Moon Cheese Deposit
+tile.pepper_cheese_ore.name=Hot Pepper Cheese Deposit
 
 itemGroup.blocks=Cheesemod Blocks
 itemGroup.cheese_food=Cheesemod Foodstuffs

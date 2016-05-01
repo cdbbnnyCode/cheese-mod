@@ -5,6 +5,7 @@ import java.util.UUID;
 import com.mojang.authlib.GameProfile;
 
 import simplemods.cheesemod.BaseMod;
+import simplemods.cheesemod.CommonProxy;
 import simplemods.cheesemod.inventory.CCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSkull;
@@ -75,7 +76,7 @@ public class ItemCheeseWheel extends Item {
         {
             if (!p_77648_3_.isRemote)
             {
-            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, BaseMod.cheese_wheel_block);
+            	p_77648_3_.setBlock(p_77648_4_, p_77648_5_, p_77648_6_, CommonProxy.cheese_wheel_block);
             	p_77648_1_.stackSize--;
             }
             return true;
