@@ -8,6 +8,7 @@ import simplemods.cheesemod.inventory.CCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemPickaxe;
 /**
  * No, this is not a hopper...
  */
@@ -19,6 +20,8 @@ public class BlockHotPepperCheeseOre extends Block{
 		setBlockName("pepper_cheese_ore");
 		setBlockTextureName("cheesemod:pepper_cheese_ore");
 		setLightLevel(0.325F);
+		setHardness(0.4F);
+		setHarvestLevel("pickaxe", 0);
 	}
 
 	@Override
