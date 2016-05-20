@@ -8,10 +8,7 @@ import simplemods.cheesemod.inventory.CCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPickaxe;
-/**
- * No, this is not a hopper...
- */
+
 public class BlockHotPepperCheeseOre extends Block{
 
 	public BlockHotPepperCheeseOre(Material p_i45394_1_) {
