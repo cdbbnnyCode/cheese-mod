@@ -14,7 +14,7 @@ Cheese Mod 1.4.0 (for some reason) will not work with existing worlds. It will s
 Uh oh! It seems like a mod is breaking the ID map. Please revert to original mods.  
 **Please do not use this mod with an existing world!!** Make a new world instead.  
 ### Known Bugs  
-** Bad rendering of cheese wheel and related blocks**: I'm new to using Techne.  
-** Rainbows don't show up when other mods (e.g. Biomes O' Plenty) are used**: I used a very crude process to add them. They might not show up anyway. :\\  
+**Bad rendering of cheese wheel and related blocks**: I'm new to using Techne.  
+**Rainbows don't show up when other mods (e.g. Biomes O' Plenty) are used**: I used a very crude process to add them. They might not show up anyway. :\\  
 ### Download
 [Download jar file](http://mods.curse.com/mc-mods/minecraft/244633-cheese-mod-v-1-4-1)
